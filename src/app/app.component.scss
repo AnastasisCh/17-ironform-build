@@ -298,3 +298,20 @@
   .form-row { grid-template-columns: 1fr; }
   .footer-inner { flex-direction: column; text-align: center; }
 }
+
+@media (max-width: 480px) {
+  .container { padding: 0 1rem; }
+  .navbar { padding: 1rem 0; }
+  .hero-content { padding: 8rem 0 3rem; }
+  .hero-content h1 { font-size: clamp(2.5rem, 10vw, 5rem); }
+  .hero-cta { flex-direction: column; align-items: stretch; }
+  .hero-stats { gap: 1rem; }
+  .hero-stats .stat strong { font-size: 2rem; }
+  .services { padding: 4rem 0; }
+  .projects { padding: 4rem 0; }
+  .process { padding: 4rem 0; }
+  .contact { padding: 4rem 0; }
+  .contact-form { padding: 1.5rem; }
+  .contact-form input, .contact-form select, .contact-form textarea { width: 100%; }
+  .projects-grid { grid-template-columns: 1fr; }
+}
